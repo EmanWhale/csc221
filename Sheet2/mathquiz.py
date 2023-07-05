@@ -20,8 +20,6 @@ start = time.time()
 for _ in range(10):
     question, answer = questions()
     response = int(input(question))
-    print(int(input("Enter a number: ")))
-
     
     if response == answer:
         right += 1
