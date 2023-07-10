@@ -14,6 +14,10 @@ Line((290, 210), (310, 210))
 
 Arc((300, 220), 30, 225, 315)
 
+Circle((255, 220), (5))
+
+Circle((345, 220), (5))
+
 update_when('key_pressed')   
 
 end_graphics()
