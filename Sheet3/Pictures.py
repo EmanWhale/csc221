@@ -12,6 +12,8 @@ Line((300, 210), (290, 190))
 
 Line((290, 190), (310, 190))
 
+Arc((300, 200), 30, 225, 315)
+
 update_when('key_pressed')   
 
 end_graphics()
