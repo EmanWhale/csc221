@@ -18,6 +18,10 @@ Circle((255, 220), (5))
 
 Circle((345, 220), (5))
 
+Line((285, 245), (295, 235))
+
+Line((315, 245), (305, 235))
+
 update_when('key_pressed')   
 
 end_graphics()
