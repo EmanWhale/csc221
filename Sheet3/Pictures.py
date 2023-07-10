@@ -2,9 +2,11 @@ from gasp import *
 
 begin_graphics()
 
-Line((200, 100), (100, 300))
-
 Circle((300, 200), (40))
+
+Circle((285, 210), (10))
+
+Circle((315, 210), (10))
 
 update_when('key_pressed')   
 
