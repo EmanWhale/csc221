@@ -2,11 +2,13 @@ from gasp import *
 
 begin_graphics()
 
-Circle((300, 220), (40))
 
-Circle((285, 233), (5))
 
-Circle((315, 233), (5))
+Circle((300, 220), (40), color="tan", filled=True)
+
+Circle((285, 233), (5), color="brown", filled=True)
+
+Circle((315, 233), (5), color="brown", filled=True)
 
 Circle((285, 233), (1.5), filled=True)
 
@@ -20,9 +22,9 @@ Arc((300, 220), 30, 220, 325)
 
 Line((277, 202), (324.49999999999997155, 202))
 
-Circle((253, 225), (7))
+Circle((253, 225), (7), color="tan", filled=True)
 
-Circle((347, 225), (7))
+Circle((347, 225), (7), color="tan", filled=True)
 
 Circle((253, 222.5), (1), filled=True)
 
