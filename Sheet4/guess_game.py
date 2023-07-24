@@ -17,6 +17,6 @@ while True:
 
     if answer == number:
             print ("CONGRATS! You correctly guessed my number! It took you " + str(guesses) + " guesses.")
-            
+            break
 
 
