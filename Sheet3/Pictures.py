@@ -2,8 +2,6 @@ from gasp import *
 
 begin_graphics()
 
-
-
 Circle((300, 220), (40), color="tan", filled=True)
 
 Circle((285, 233), (5), color="brown", filled=True)
@@ -37,6 +35,7 @@ Line((315, 245), (305, 235))
 Line((300, 260), (300, 275))
 
 Line((300, 260), (285, 270))
+
 
 Line((300, 260), (315, 270))
 
