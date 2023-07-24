@@ -1,7 +1,8 @@
 from random import randint
 
+number = randint(1, 1000)
+
 while True:
-    number = randint(1, 1000)
     question = "I have chosen a number between 1 and 1000. Guess my number:"
     answer = int(input(question))
     guesses = 0
