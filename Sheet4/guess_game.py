@@ -19,5 +19,8 @@ if answer > number:
 
 if answer == number:
         print ("CONGRATS! You correctly guessed my number!")
+else: 
+       answer = int(input(question))
+
 
     
